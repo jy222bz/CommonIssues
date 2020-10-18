@@ -3,7 +3,7 @@
 Sometimes we code and apply bad practices without even knowing it. Bad practices will cause issues that will make it difficult to solve some assignments
 in some particular courses that require clean code.
 ____ 
-Here are a few tips for applying and adapting acceptable practices:
+Here are a few tips for applying and adopting acceptable practices:
 
  1. Use the IntelliJ IDEA IDE. It is a commercial tool, but with your student ID, you can get a free license. It has analysis tools that can be used to inspect the code. Furthermore,
  It provides suggestions when it realizes the code has issues. 
