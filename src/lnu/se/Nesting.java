@@ -71,8 +71,10 @@ public class Nesting {
      * <p>
      * Imagine that each list has 1000 elements, that implies
      * the outer for-loop will loop for 1000 times and the inner for-loop will loop
-     * for 1000 times also That will cause the amount of loops to
+     * for 1000 times also. That will cause the amount of loops will
      * be 1000 * 1000 = 1000 000 loops.
+     * NOTE: We are not considering the internal operations in the lists in terms of time efficiency, 
+     * we are computing only the loops.
      * <p>
      * A better solution is to use frequency counters and multiple independent loops
      * to solve the problem.
@@ -117,6 +119,8 @@ public class Nesting {
      * where nested loops take 1000 * 1000 = 1000 000 loops.
      * Therefore, you should not depend on nested loops as much as you can.
      * Time complexity; O(3n) => O(n)
+     * NOTE: We are not considering the internal operations in the lists and hashmaps in terms of time efficiency, 
+     * we are computing only the loops.
      *
      * @param list1 the initial values.
      * @param list2 the square values.
