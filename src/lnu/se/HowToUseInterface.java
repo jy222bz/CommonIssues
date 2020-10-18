@@ -53,7 +53,7 @@ class Descending implements Sorter {
     }
 }
 
-public class HowToUseInterFace {
+public class HowToUseInterface {
 
     /**
      * It uses the Ascending class and the descending class to sort the two numbers
