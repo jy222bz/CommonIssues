@@ -18,7 +18,7 @@ Here are a few tips for applying and adapting acceptable practices:
  
  4. As a developer, you should always strive for a clean, controllable, and testable code and optimized solutions.
  
- 5. If there is any issue or anything that has not been covered in this code, please feel free to contact me and will
+ 5. If there is any issue or anything that has not been covered in this code, please feel free to contact me and I will
  try to update the materials accordingly to address the new issues in any way I can.
  
  ### There are common issues that are applied frequently. Also, a few concepts in programming get misunderstood often. In this code, I have addressed some of these questions with examples.
