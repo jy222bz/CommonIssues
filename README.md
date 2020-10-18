@@ -1,5 +1,7 @@
 # Common Issues!
 
+## I am a student at Linnaeus University and I would like to share my experience with others.
+
 Sometimes we code and apply bad practices without even knowing it. Bad practices will cause issues that will make it difficult to solve some assignments
 in some particular courses that require clean code.
 ____ 
