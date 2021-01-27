@@ -1,4 +1,4 @@
-package lnu.se;
+package lnu.se.duplications;
 
 public class Duplications {
 

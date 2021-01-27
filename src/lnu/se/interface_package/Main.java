@@ -1,59 +1,8 @@
-package lnu.se;
+package lnu.se.interface_package;
 
 import java.util.Arrays;
 
-interface Sorter {
-
-    /**
-     * It returns an array that ordered either in ascending order or descending order.
-     * It depends on the implementation.
-     *
-     * @param number1 some number
-     * @param number2 some number
-     * @return ordered array.
-     */
-    int[] getOrderedArray(int number1, int number2);
-}
-
-class Ascending implements Sorter {
-
-    /**
-     * It returns an array that ordered in ascending order.
-     *
-     * @param number1 some number
-     * @param number2 some number
-     * @return ordered array.
-     */
-    @Override
-    public int[] getOrderedArray(int number1, int number2) {
-        if (number1 > number2) {
-            return new int[]{number2, number1};
-        } else {
-            return new int[]{number1, number2};
-        }
-    }
-}
-
-class Descending implements Sorter {
-
-    /**
-     * It returns an array that ordered in descending order.
-     *
-     * @param number1 some number
-     * @param number2 some number
-     * @return ordered array.
-     */
-    @Override
-    public int[] getOrderedArray(int number1, int number2) {
-        if (number1 < number2) {
-            return new int[]{number2, number1};
-        } else {
-            return new int[]{number1, number2};
-        }
-    }
-}
-
-public class HowToUseInterface {
+public class Main {
 
     /**
      * It uses the Ascending class and the descending class to sort the two numbers
@@ -103,8 +52,8 @@ public class HowToUseInterface {
 
         System.out.println("-------------------------------------------------");
         int[] data = sorter.getOrderedArray(10, 90);
-        for (int i = 0; i < data.length; i++) {
-            System.out.println(data[i]);
+        for (int datum : data) {
+            System.out.println(datum);
         }
     }
 }

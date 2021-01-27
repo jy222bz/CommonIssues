@@ -1,4 +1,4 @@
-package lnu.se;
+package lnu.se.nesting;
 
 import java.util.ArrayList;
 import java.util.HashMap;

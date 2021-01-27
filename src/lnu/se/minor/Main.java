@@ -1,4 +1,4 @@
-package lnu.se;
+package lnu.se.minor;
 
 import java.util.ArrayList;
 

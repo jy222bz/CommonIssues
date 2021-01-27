@@ -1,4 +1,4 @@
-package lnu.se;
+package lnu.se.singleton_example;
 
 import java.util.ArrayList;
 import java.util.Objects;
@@ -14,7 +14,7 @@ import java.util.Objects;
  * it is good to make one instance and protect the information.
  * <p>
  * It is also good for UTIL classes when they do not hold values rather they provide
- * functionalities, and these functionalities often do not change over time.
+ * functionaries, and these functionaries often do not change over time.
  */
 public class Database {
 
