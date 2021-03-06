@@ -20,7 +20,7 @@ public class Main {
         } else {
             Sorter sorter = factory.getSorter(sortOption);
             data = sorter.sort(data);
-            System.out.println("Data sorted:  ");
+            System.out.println("The data sorted in a " + sortOption.getOrder() + ":");
             for (int number : data) {
                 System.out.println(number);
             }
