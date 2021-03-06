@@ -10,7 +10,7 @@ public class InputHandler {
 
 
     /**
-     * It processes integer input and it returns the enum that its value corresponds to the
+     * It processes the input and it returns the enum that its value corresponds to the
      * input.
      *
      * @return SortOption
